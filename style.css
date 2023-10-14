@@ -1,0 +1,25 @@
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container, h1, h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-main{
+    border: 2px solid orangered !important;
+    background-color: orangered !important;
+    height: 40px !important;
+    border-radius: 5px !important;
+    color: white !important;
+    transition: 1s;
+}
+.btn-main:hover{
+    background-color: transparent !important;
+    transition: 0.1s;
+}
